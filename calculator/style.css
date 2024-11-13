@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 80px 80px 80px 80px;
     background-color: rgb(61, 61, 61);
     padding: 10px;
 
@@ -113,9 +113,9 @@
 a{
     text-decoration: none;
 }
-a:hover{
+.grid-container>button:hover{
     background-color: black;
-    border-radius: 10px;
+    border-radius: 11px;
 }
 
 #asdid{
@@ -142,4 +142,19 @@ button{
 
 .gombok>p>a{
     color: white;
+    padding: 3px;
+}
+
+.gombok>p{
+  padding: 5px;
+}
+
+.kijelzo>div{
+  justify-content: end;
+  display: flex;
+  padding: 2%;
+}
+
+.grid-container>button{
+  background-color: rgb(61, 61, 61);
 }
